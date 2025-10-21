@@ -1,16 +1,19 @@
 programa {
 
-  const cadeia nome_magia = "Energy Beam"
-  const inteiro custo = 20
-  inteiro quant_lan, custo_mana
+  inteiro quant, a, total, ddv
 
   funcao inicio() {
-    escreva("--- Calculadora de custo de Mana (Magia: Energy Beam) ---\n")
-    escreva("Quantas vezes você precisa lançar a magia 'Energy Beam'? ")
-    leia(quant_lan)
+    escreva("Digite a quantidade de cigarros que você fuma por dia: ")
+    leia(quant)
 
-    custo_mana = custo * quant_lan
+    escreva("Digite a quantidade de anos que você fuma: ")
+    leia(a)  
 
-    escreva("Para lançar a magia ", nome_magia, " ", quant_lan, " vez(es), você gastará: ", custo_mana, " de mana.")
+    total = quant * 10
+
+    ddv = a * total
+
+    escreva("Por você fumar por ", a, " anos você perderá ", ddv," dias de vida.")
+
   }
 }

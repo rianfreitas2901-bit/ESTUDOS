@@ -1,23 +1,18 @@
 programa {
-  cadeia item
-  real peso, total
-  inteiro quant
 
-  funcao inicio() {
-    escreva("Nome do Item: ")
-    leia(item)
-    escreva("Peso unitário: ")
-    leia(peso)
-    escreva("Quantidade em posse: ")
-    leia(quant)
-    //-------------------------------
-    escreva("--- Detalhes do Item ---\n")
-    escreva("Item: ", item, "\n")
-    escreva("Quantidade: ", quant, "\n")
-    escreva("Peso unitário: ", peso, " Oz\n")
+real km, multa
+funcao inicio() {
+  escreva("Quantos quilômetros por hora você passou pelo radar? ")
+  leia(km)
+    
+  multa = (km - 80) * 5
 
-    total = peso * quant
+  se (km <= 80) { 
+  escreva("Você não precisará pagar nenhuma multa.")
+  }
 
-    escreva("Peso Total: ", total, " Oz")
+  senao {
+  escreva("Por ultrapassar o limite da velocidade, você pagará R$ ", multa," de multa.")
+     }
   }
 }

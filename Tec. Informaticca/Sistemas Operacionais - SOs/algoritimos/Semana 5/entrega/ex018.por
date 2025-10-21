@@ -1,19 +1,21 @@
 programa {
-  const real desconto = 0.15
-  real p_inicial, p_final, d
-  cadeia prod
+  inteiro adn, idd
+
   funcao inicio() {
-    escreva("Nome do produto: ")
-    leia(prod)
-    escreva("Preço original: ")
-    leia(p_inicial)
-    //--------------------------
-    d = p_inicial * desconto
-    //--------------------------
-    escreva("Desconto (15.0%): ", d, "\n")
-    //-------------------------------
-    p_final = p_inicial - d
-    //--------------------------------
-    escreva("Preço final: R$ ", p_final)
+
+    escreva("Digite seu ano de nascimento: ")
+    leia(adn)
+
+    idd = 2025 - adn
+    escreva("A sua idade é: ", idd, ". \n")
+
+   se (idd >= 18) {
+    escreva("Você tem a idade permitida para poder votar.")
+    }
+
+   senao {
+    escreva("Você é proibido(a) de votar por ser de menor.")
+    }
+
   }
 }

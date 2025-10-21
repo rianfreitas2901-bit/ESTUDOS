@@ -1,11 +1,16 @@
 programa {
-  cadeia set
-  inteiro cod
-  funcao inicio() {
-    escreva("Letra do setor: ")
-    leia(set)
-    escreva("Código do funcionário: ")
-    leia (cod)
-    escreva("Funcionário do setor ", set, ", código ", cod)
+
+  real d, km, total 
+
+funcao inicio() {
+    escreva("Digite a quantide de dias que o carro foi alugado: ")
+    leia(d)
+
+    escreva("Digite a quantidade de quilômetros rodados: ")
+    leia(km)
+
+    total = (d * 60) + (km * 0.20)
+
+    escreva("O total do preço a pagar é: ",total)
   }
 }
