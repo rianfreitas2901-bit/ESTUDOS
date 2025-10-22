@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>form005</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadrastro.php" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <input type="radio" name="Sexo" id="idmasculino">
+                <label for="idmasculino">Masculino</label>
+                <br>
+                <input type="radio" name="Sexo" id="idfeminino">
+                <label for="idfeminino">Feminino</label>
+                
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <div>
+                <input type="checkbox" name="Futebol" id="idfut" checked>
+                <label for="idfut">Futebol</label>
+                <br>
+                <input type="checkbox" name="Basquete" id="idbasq">
+                <label for="idbasq">Basquete</label>
+                <br>
+                <input type="checkbox" name="Natação" id="idnat">
+                <label for="idnat">Natação</label>
+                <br>
+                <input type="checkbox" name="Tênis" id="idten">
+                <label for="idten">Tênis</label>
+            </div>
+        </fieldset>
+   
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>    
+        <a href="ex012.html" rel="prev"> 
+    <button>Voltar</button>
+</body>
+</html>
