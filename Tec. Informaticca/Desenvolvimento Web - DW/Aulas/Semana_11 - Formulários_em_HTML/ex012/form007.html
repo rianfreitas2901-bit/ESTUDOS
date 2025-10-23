@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>form007</title>
+</head>
+<body>
+     <h1>Exemplo de Formulário</h1>
+    <form action="cadrastro.php" method="get">
+        <fieldset>
+            <div>
+                <label for="idest">Estado</label>
+                <select name="Estado" id="idest">
+                    <option value="Estado" id="idest"></option>
+                    <optgroup label="Sudeste">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="ES">Espirito Santo</option>
+                    </optgroup>
+
+                    <optgroup label="Sul">
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="PR">Paraná</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <label for="idmsg">Mensagem</label>
+                <br>
+                <textarea name="Mensagem" id="idmsg" cols="30" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+            </div>
+            
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+    </form>
+    <a href="ex012.html" rel="prev"> 
+    <button>Voltar</button>
+</body>
+</html>
