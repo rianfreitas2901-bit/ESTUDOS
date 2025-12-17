@@ -6,6 +6,9 @@
     <title>ent007</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
+        main{
+            font-family: 'Times New Roman', Times, serif;
+        }
         h1{
             font-family:sans-serif;
             font-style: italic;
@@ -67,7 +70,7 @@
 
                     <p>Aqui está um exemplo que resume as regras acima:
                     </p>    
-                        <code>
+                        <pre style="border-style: dashed;"><code>
                              <span class="verde">  styselector [, selector2, ...]</span>
                              <span class="roxo">[:pseudo-class]</span> {<br>
                             property: value;<br>
@@ -75,7 +78,7 @@
                              ...]<br>
                              }<br>
                              <span class="ciano">/* comment */</span>
-                        </code>
+                        </pre></code>
                     
             </section>
 
@@ -107,13 +110,14 @@
 
             <section>
                 <h2>Exemplos</h2>
-                    <code>
+                    <pre style="border-style: dashed;"><code>
                         <span class="verde">p {text-align: right; color:</span> <span class="cinza">#BA2;</span>}<br>
                         <span class="verde">p</span>.<span class="azul">minhaclasse01</span> { <span class="verde">color</span>:<span class="cinza">#ABC</span>; }<br>
                         <span class="verde">p</span>.<span class="azul">minhaclasse02</span> { <span class="verde">color</span>:<span class="cinza">#CAD</span>; }<br>
                         # <span class="verde">iddomeuelemento</span> { <span class="verde">color</span>:<span class="cinza">#ACD</span>; }<br>
                         <span class="verde">p</span>.<span class="azul">minhaclasse03</span> .<span class="azul">minhaclasse04</span> { <span class="verde">color</span>:<span class="cinza">#ACD</span>; }
-                    </code>
+                    </pre></code>
+
 
                 <br>
                 <br>
@@ -122,7 +126,7 @@
                 <hr>
                 <hr>
 
-                    <code>
+                    <pre style="border-style: dashed;"><code>
                         <span class="ciano">/* comentário em css, semelhante aos da linguagem c */</span><br>
                         <span class="verde">body</span><br>
                         {<br>
@@ -130,7 +134,7 @@
                         <span class="verde">background-color</span>:<span class="cinza"> #FFF</span>;<br>
                         <span class="verde">margin</span>: <span class="cinza">5</span><span class="verm">px</span> <span class="cinza">10</span><span class="verm">px</span>;<br>
                         }
-                    </code>
+                    </pre></code>
 
                     <p>
                         O código acima define fonte padrão Arial, caso não exista, substitui por Verdana, caso não exista,
@@ -163,7 +167,7 @@
                         <p>Arquivo *.XML com ligação para uma folha de estilos em cascata:
                         </p>
                         
-                            <code>
+                            <pre style="border-style: dashed;"><code>
                                 <span class="amar">
                                     &lt;?xml version="1.0" encoding="UTF-8"?&gt;
                                     &lt;?xml-stylesheet type="text/css" href="css.css"?&gt;
@@ -194,12 +198,12 @@
 
                                 <span class="verde">&lt;/schedule&gt;</span>
 
-                            </code>
+                            </pre></code>
 
                         <h3>CSS e Javascript</h3>
                         <h4>Pop-up não bloqueável</h4>
 
-                            <code>
+                            <pre style="border-style: dashed;"><code>
                                 <span class="verde">&lt;html&gt;</span><br>
                                 <span class="verde">&lt;head&gt;</span><br>
                                 <span class="verde">&lt;style</span> <span class="amar">type</span>=<span class="amar">"text/css"</span><span class="verde">&gt;</span><br>
@@ -238,7 +242,7 @@
                                 <span class="verde">&lt;a</span> <span class="amar">href</span>=<span class="amar">"javascript: fechar();"</span><span class="verde">&gt;</span>Fechar pop-up<span class="verde">&lt;/a&gt;</span><br>
                                 <span class="verde">&lt;/body&gt;</span><br>
                                 <span class="verde">&lt;/html&gt;</span>
-                            </code>
+                            </pre></code>
                 </section>
 
             <section>
