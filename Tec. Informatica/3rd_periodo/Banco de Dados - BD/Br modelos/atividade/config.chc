@@ -1,0 +1,16 @@
+#Config
+#Mon Apr 06 20:16:08 BRT 2026
+cfg.ancorador=true
+cfg.apagartextoaoeditar=true
+cfg.autosalvarintervalo=5
+cfg.gradelargura=23
+cfg.location.salvar=true
+cfg.location.x=-8
+cfg.location.y=-8
+cfg.mostrardimensoesaomover=true
+cfg.mostrargrade=true
+cfg.mostrarids=false
+cfg.mostrartooltips=true
+cfg.propaguedeletetolines=true
+cfg.recentes=C\:\\Users\\Rian Freitas\\OneDrive\\Documentos\\ESTUDOS\\Tec. Informaticca\\3rd_periodo\\Banco de Dados - BD\\Br modelos\\atividade\\terceiro.brM3;C\:\\Users\\Rian Freitas\\OneDrive\\Documentos\\ESTUDOS\\Tec. Informaticca\\3rd_periodo\\Banco de Dados - BD\\Br modelos\\atividade\\segundo.brM3;C\:\\Users\\Rian Freitas\\OneDrive\\Documentos\\ESTUDOS\\Tec. Informaticca\\3rd_periodo\\Banco de Dados - BD\\Br modelos\\atividade\\primeiro.brM3;C\:\\Users\\Rian Freitas\\OneDrive\\Documentos\\ESTUDOS\\Tec. Informaticca\\3rd_periodo\\Banco de Dados - BD\\Br modelos\\chcandido-brModelo-06bd0f4\\Primeiro.brM3;C\:\\Users\\RIan\\OneDrive\\Documentos\\ESTUDOS\\Tec. Informaticca\\3rd_periodo\\Banco de Dados - BD\\Br modelos\\chcandido-brModelo-06bd0f4\\Primeiro.brM3
+cfg.tipodefault=0
