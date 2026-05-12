@@ -5,4 +5,5 @@ enum genero{
     case Comedia;
     case Drama;
     case SuperHeroi;
+    case Animacao;
 }

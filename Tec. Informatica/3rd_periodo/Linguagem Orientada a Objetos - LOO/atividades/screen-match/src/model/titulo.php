@@ -1,6 +1,6 @@
 <?php
 
-class Filme{
+abstract class Titulo{
     private array $notas;
 
     public function __construct(
@@ -13,7 +13,7 @@ class Filme{
     }
 
     //Métodos
-    public function avalia($nota): void //Metodo Setter
+    public function avaliar($nota): void //Metodo Setter
     {
         $this->notas[] = $nota;
     }
@@ -25,4 +25,6 @@ class Filme{
 
         return $somaNotas / $quantidadeNotas;
     }
+
+    abstract public function duracaoEmMinutos();
 }
