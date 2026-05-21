@@ -72,5 +72,85 @@ function ex012() {
   let resultado = document.getElementById("resultado5");
   let imc = peso / (altura * altura);
   resultado.textContent = imc;
+}
 
+function ex013() {
+  let numero = document.getElementById("inputNumber9").value;
+  
+  let resultado = document.getElementById("resultado6");
+  let fatorial = 1
+  for (let i = numero; i >= 1; i--) {
+    fatorial = fatorial * i;   
+  }
+  resultado.textContent = fatorial;
+}
+
+function ex014() {
+  let numero = document.getElementById("inputNumber10").value;
+  let resultado = document.getElementById("resultado7");
+  let convert = numero * 4.8;
+  resultado.textContent = `R$ ${convert}`;
+}
+
+function ex015() {
+  let altura = parseFloat(document.getElementById("inputNumber11").value);
+  let largura = parseFloat(document.getElementById("inputNumber12").value);
+  let area = document.getElementById("resultado8");
+  let perimetro = document.getElementById("resultado9");
+  let calculo1 = altura * largura;
+  let calculo2 = (altura * 2) + (largura * 2);
+  area.textContent = calculo1;
+  perimetro.textContent = calculo2;
+}
+
+function ex016() {
+  let raio = parseFloat(document.getElementById("inputNumber13").value);
+  let pi = 3.14;
+  let area = document.getElementById("resultado10");
+  let perimetro = document.getElementById("resultado11");
+  let calculo1 = pi * (raio * raio);
+  let calculo2 = (pi * raio) * 2;
+  area.textContent = calculo1;
+  perimetro.textContent = calculo2;
+}
+
+function ex017() {
+  let numero = parseFloat(document.getElementById("inputNumber14").value);
+  let resultado = "";
+  for (let i = 1; i <= 10; i++) {
+
+    resultado += "Adição: "
+      + numero + " + " + i + " = " + (numero + i) + "\n";
+
+    resultado += "Subtração: "
+      + numero + " - " + i + " = " + (numero - i) + "\n";
+
+    resultado += "Multiplicação: "
+      + numero + " x " + i + " = " + (numero * i) + "\n";
+
+    resultado += "Divisão: "
+      + numero + " / " + i + " = " + (numero / i).toFixed(2) + "\n\n";
+  };
+
+let campoResultado = document.getElementById("resultado12")
+campoResultado.textContent = resultado;
+}
+
+function ex018() {
+  let listaGenerica = [];
+  console.log(listaGenerica);
+
+}
+
+//ex019()
+let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
+let campoLista = document.getElementById("resultado13");
+campoLista.textContent = linguagensDeProgramacao;
+console.log(linguagensDeProgramacao)
+
+function ex020(){
+let insert = document.getElementById("inputNumber15").value;
+linguagensDeProgramacao.push(insert);
+let campoLista = document.getElementById("resultado15");
+campoLista.textContent = linguagensDeProgramacao;
 }
