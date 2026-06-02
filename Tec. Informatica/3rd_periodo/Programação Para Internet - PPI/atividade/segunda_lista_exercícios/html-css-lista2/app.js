@@ -146,11 +146,25 @@ function ex018() {
 let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
 let campoLista = document.getElementById("resultado13");
 campoLista.textContent = linguagensDeProgramacao;
-console.log(linguagensDeProgramacao)
 
 function ex020(){
-let insert = document.getElementById("inputNumber15").value;
+let insert = document.getElementById("inputText").value;
 linguagensDeProgramacao.push(insert);
-let campoLista = document.getElementById("resultado15");
+let campoLista = document.getElementById("resultado13");
 campoLista.textContent = linguagensDeProgramacao;
+}
+
+//ex021-23
+let lista = ['Elemento I', 'Elemento II', 'Elemento III'];
+
+function ex021(){
+  console.log (lista[0]);
+}
+
+function ex022(){
+  console.log(lista[1]);
+}
+
+function ex023(){
+  console.log(lista[2]);
 }
